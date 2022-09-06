@@ -1,6 +1,6 @@
 # Automation tests for GUI and API
 
-**This documentation provides all information about the GUI and API automated tests for the webpage react-redux.realworld.io.**
+**This documentation is describing all the GUI and API automation tests created in Cypress.**
 
 ## CONTENT
 
@@ -21,7 +21,7 @@ The second part is testing the API functionality for GET and POST requests.
 
 The second part also required the external data source to be used to maintain the data-driven concept. This was accomplished by creating a csv file from which data was taken for creating new user objects and sending them via post request.
 
-TECHNICAL TASK 1
+**TECHNICAL TASK 1**
 
 1. Test case 1 - Check that post can be created
    Goal: To check if the user can create a post.
@@ -31,7 +31,7 @@ TECHNICAL TASK 1
    Goal: To check if the user can delete a post. Check that deleted post is not visible anymore.
    Test steps: Find a post based on the article title. Delete a post. Check that deleted post is no longer visible.
 
-TECHNICAL TASK 2
+**TECHNICAL TASK 2**
 
 1. Test Case 1 - Get Users - Check the total number and last name of the first two users
    Goal: To check specific data within the user list.
